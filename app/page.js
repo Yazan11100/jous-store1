@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import { Card, CardContent } from "./components/ui/card";
-import { Button } from "./components/ui/button";
-import ProductCard from "./components/ProductCard";
+import { Card, CardContent } from "./components/ui/card.jsx";
+import { Button } from "./components/ui/button.jsx";
+import ProductCard from "./components/ProductCard.jsx";
 
 export default function HomePage() {
   const product = {
